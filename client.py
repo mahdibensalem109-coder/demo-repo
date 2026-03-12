@@ -29,3 +29,4 @@ try:
 except requests.exceptions.ConnectionError:
     print("Connection failed. Is your FastAPI server running?")
 
+"hghghg"

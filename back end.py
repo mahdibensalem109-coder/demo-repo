@@ -59,5 +59,3 @@ async def analyze_actimetry(file: UploadFile = File(...)):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
-       "" going"
